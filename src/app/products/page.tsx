@@ -1,5 +1,5 @@
 "use client"
-import ProductCard from "@/components/productCard";
+
 import ProductList from "@/components/productList";
 
 const productList = [
@@ -9,8 +9,8 @@ const productList = [
 
 export default function ProductsPage() {  
     return (
-    <div>
-        <ProductList />
-    </div>
+
+    <ProductList /> 
+    
     )  
   }

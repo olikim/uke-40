@@ -2,6 +2,7 @@
 export type FakeProduct = {
     id: () => string
     title: () => string
+    description: () => string
     category: () => string
     price: () => number
 }
@@ -9,6 +10,7 @@ export type FakeProduct = {
 export type Product = {
     id: string
     title: string
+    description: string
     category: string
     price: number
 }
@@ -25,6 +27,7 @@ export type CreateProducts = (
 export type ProductCardProps = {
     id: string
     title: string
+    description: string
     category: string
     price: number
   }
