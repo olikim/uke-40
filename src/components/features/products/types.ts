@@ -1,15 +1,15 @@
 
 export type FakeProduct = {
-    id: () => string,
-    title: () => string,
-    category: () => string,
+    id: () => string
+    title: () => string
+    category: () => string
     price: () => number
 }
 
 export type Product = {
-    id: string,
-    title: String,
-    category: string,
+    id: string
+    title: string
+    category: string
     price: number
 }
 
@@ -19,5 +19,13 @@ export type CreateProductsParams = {
 }
 
 export type CreateProducts = (
-    params: CreateProductsParams
-) => Map<String, Product>
+    params: CreateProductsParams,
+) => Map<string, Product>
+
+export type ProductCardProps = {
+    id: string
+    title: string
+    category: string
+    price: number
+  }
+  

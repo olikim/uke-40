@@ -7,7 +7,7 @@ export const fakeProduct: FakeProduct = {
     price: () => getRandomPrice()
 }
 
-const createProduct: CreateProducts = ({count, fakeProduct}) => {
+export const createProduct: CreateProducts = ({count, fakeProduct}) => {
 
     const products = new Map()
 
