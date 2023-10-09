@@ -6,10 +6,10 @@ import ProductCard from "./productCard"
 
 export default function ProductList () {
 
-    const products = Array.from(createProduct({ count: 10, fakeProduct }).values())
+    const products = Array.from(createProduct({ count:7, fakeProduct }).values())
     
     return (
-        <div className="flex flex-wrap flex-row gap-5 justify-center items-center">
+        <div className="flex flex-wrap justify-center">
             {products.map((product) => (
                 <ProductCard key={product.id} {...product}/>
                 ))}        

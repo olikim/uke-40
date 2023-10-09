@@ -9,8 +9,8 @@ const productList = [
 
 export default function ProductsPage() {  
     return (
-
-    <ProductList /> 
-    
+        <div>
+            <ProductList />
+        </div>    
     )  
   }
