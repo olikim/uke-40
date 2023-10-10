@@ -9,7 +9,7 @@ const productList = [
 
 export default function ProductsPage() {  
     return (
-        <div>
+        <div className="mx-auto w-full max-w-3xl">
             <ProductList />
         </div>    
     )  
