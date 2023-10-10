@@ -6,9 +6,9 @@ export default function ProductCard (props: ProductCardProps) {
 
 
     return (
-        <article className="mx-auto mb-5 flex max-w-sm flex-col items-center space-y-4 rounded-xl bg-white p-6 shadow-md ">
+        <article className="flex max-w-md flex-col items-start space-y-4 rounded-xl bg-white p-6 shadow-md ">
             <div className="basis-1/2">
-                <span className="leading-sm float-right inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold tracking-normal uppercase text-blue-gray-900 antialiased">
+                <span className="leading-sm float-right inline-flex items-end rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold tracking-normal uppercase text-blue-gray-900 antialiased">
                     {category}
                 </span> 
                 <h2 className="mb-2 font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
